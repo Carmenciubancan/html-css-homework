@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <title>html-css-homework</title>
+
+
+  <style>
+   body {
+      background-color: rgb(20%, 20%, 20%);
+      padding:20px;}
+
+   main {
+        width:600px;
+        background-color:rgb(80%, 80%, 70%);
+        margin: 0 auto;
+        box-shadow: 7px 10px 0 1px rgba(0,0,0,.4);}
+
+
+     header {
+        height:50px;
+        background-color: rgb(50%, 50%, 70%);
+        color:white;
+        margin-bottom:20px;
+        border-bottom-width:4px;
+        border-bottom-color:rgb(30%, 10%, 40%);
+        border-bottom-style:solid;}
+
+    h1 {
+      font-weight:300;
+      text-indent:20px;}
+
+
+    nav {
+          background-color:rgba(100%, 100%, 100%,.6);
+          width:200px;
+          border-radius:5px;
+          float:left;
+          display:inline-block;}
+
+
+          nav > ul {height: 30px;
+                   text-indent:10px;
+                   margin-top:0px;
+                   margin-bottom:0px;
+                        }
+
+
+
+            .ulin > li {height: 20px;
+                        text-indent:20px;
+                        font-size:12px;
+                        }
+
+
+
+
+
+      ul li:nth-child(odd){
+        background-color:rgba(0, 0, 0, .1);}
+
+
+
+      h3 {
+        background-color:rgb(50%, 50%, 70%);
+        margin:auto;
+        color:white;
+        height:30px;
+        text-indent:15px;
+        font-weight:300;}
+
+
+      li {
+       list-style:none;
+       margin:0px;
+       padding:0px;
+     }
+
+
+      article {
+        width:300px;
+        margin-left:250px;}
+
+
+      section:nth-child(-n+2){
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: black;}
+
+
+
+      footer {
+        background-color:rgb(10%, 10%, 30%);
+        color:white;
+        height:30px;
+        font-weight:300;
+        text-align: center;}
+
+      footer p nth-child(2){
+         display:inline;
+         margin-left:10px;
+         margin-right:10px;
+         margin-top: 10px;
+         border-right-color:white;
+         border-right-style:groove;}
+
+        footer p {
+          display:inline;
+          margin-left:10px;
+          margin-right:10px;
+          margin-top: 10px;}
+
+
+  </style>
+
+</head>
+
+<body>
+   <main>
+   <header><h1>Class of July 2016</h1></header>
+    <nav>
+      <h3>Courses</h3>
+     <ul>
+       <li>GIT</li>
+       <li>HTML
+        <ul class="ulin">
+          <li>Building a webpage</li>
+          <li>Semantics</li>
+          <li>Lists</li>
+        </ul>
+      </li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Templates</li>
+      <li>jQuery</li>
+    </ul>
+  </nav>
+
+  <article>
+      <section>
+      <h2>What did we learn about HTML?</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text
+         ever since the 1500s,when an unknown printer took a galley of type
+         and scrambled it to make a type specimen book.
+         It has survived not only five centuries,
+         but also the leap into electronic typesetting,
+         remaining essentially unchanged.</p>
+       </section>
+
+       <section>
+        <h2>What did we learn about CSS?</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+           Lorem Ipsum has been the industry's standard dummy text
+           ever since the 1500s,when an unknown printer took a galley of type
+           and scrambled it to make a type specimen book.
+           It has survived not only five centuries,
+           but also the leap into electronic typesetting,
+           remaining essentially unchanged.</p>
+         </section>
+
+         <section>
+        <h2>What did we learn about JavaScript?</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+           Lorem Ipsum has been the industry's standard dummy text
+           ever since the 1500s,when an unknown printer took a galley of type
+           and scrambled it to make a type specimen book.
+           It has survived not only five centuries,
+           but also the leap into electronic typesetting,
+           remaining essentially unchanged.</p>
+         </section>
+  </article>
+<footer>
+  <p>Copyrights 2016</p>
+  <p> HTML + CSS Homework</p>
+  <p>@carmenc</p>
+</footer>
+</main>
+</body>
+
+
+
+
+
+</html>
